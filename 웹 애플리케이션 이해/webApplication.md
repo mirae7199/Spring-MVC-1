@@ -35,9 +35,13 @@
 
 <h2>웹 시스템 구성 - WEB, WAS, DB</h2>
 <ul>
-    <li>정적 리소스는 웹 서버(WEB)가 담당한다.</li>
-    <li>애플리케이션 로직은 WAS가 담당한다.</li>
+    <li>정적 리소스는 WEB 서버가 처리한다.</li>
+        <blockquote>WAS, DB 장애시 WEB 서버가 오류화면 HTML을 제공한다.</blockquote>
+    <li>애플리케이션 로직은 WAS가 처리한다.</li>
 </ul>
+<blockquote>효율적인 리소스 관리를 위해서 정적 리소스가 많이 쓰이면 WEB 서버 증설, 애플리케이션 리소스가 많이 쓰이면 WAS 증설</blockquote>
+
+
 
 
 
